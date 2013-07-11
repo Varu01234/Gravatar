@@ -5,7 +5,7 @@
 	$size =200;//size of your image
 	$grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
 ?>
-	<div style="color:white; ">
+	
 	<img src="<?php echo $grav_url; ?>" alt="" />
-	</div>
+
 </html>
